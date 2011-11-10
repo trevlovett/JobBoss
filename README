@@ -1,0 +1,30 @@
+JobBoss
+--------
+JobBoss is a project planning tool written in Java.  
+Author: Trevor Lovett 
+
+Building / Running
+-------------------
+Use ./build.sh to clean and compile
+Run: java JobBoss buildhouse1.txt 999    
+(buildhouse1.txt is an example project file, and 999 here is the total manpower that can be used)
+
+JobBoss will then output the optimal ordering of jobs leading to shortest project completion time.  Following this is a more detailed listing showing how much each job can be delayed without affecting the project completion time.  More details on this in the next section.
+
+Details
+--------
+JobBoss reads in a project file which contains any number of task descriptions.  Each task in a project must have an estimated duration and manpower requirements.
+The format of a project file is as follows:
+8                                       # number of tasks in project
+
+1   Build-walls     4   2   5   0  # job-id  and a list of dependencies (job id's) terminated by 0
+2   Build-roofs     6   4   1   0
+...
+
+Dependencies of a job are jobs that must be completed first.  The purpose of the scheduler is to find the optimal ordering of tasks leading to the shortest project completion time.
+
+The core of the scheulder, Scheduler, allows for jobs to be run with or without 'slack'.  If run with slack, the scheduling algorithm will determine how much each job can be delayed without affecting optimal project completion time.  Latest job-start time is also computed.
+
+Error Conditions
+-----------------
+JobBoss will not be able to do much for you if a cycle exists in your job dependency graph.  JB will exit if a cycle is detected.

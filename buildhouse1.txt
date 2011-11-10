@@ -1,0 +1,10 @@
+8
+
+1   Build-walls		4 2       5       0
+2   Build-roofs		6 4       1       0
+3   Put-on-wallpapers	1 2       1       2       0
+4   Put-on-tiles    	1 3       2       0
+5   Build-foundation    4 2       0
+6   Make-floor        	2 2       5       0
+7   Put-carpet-floor  	4 2       6       2       0
+8   Move-in        	4 4       3       7       0

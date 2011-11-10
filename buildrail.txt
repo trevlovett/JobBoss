@@ -1,0 +1,33 @@
+31
+
+1   Install-pavement 			20  10         28      29      0
+2   Install-railing			7  10         10      0
+3   Install-ticketmachine            	1  10         8       0
+4   Paint-tower-1-with-arch        	15   6         24      0
+5   Paint-tower-2                  	12   6         25      0
+6   Paint-trusses              		27   6         28      29      0
+7   Paint-cables-and-rods          	18   6         28      29      0
+8   Put-lane-tunnel-and-intersection	12   7         13      15      0
+9   Setup-barrack      			3  10         0
+10  Prepare-storage        		2   4         9       0
+11  Rig-ramspace-reinforcing     	1   4         9       0
+12  Build-tunnel                 	30  12         9       0
+13  Clean-tunnel                 	18  12         12      0
+14  Build-intersection              	25  12         9       0
+15  Clean-intersection               	20  12         14      0
+16  Build-towerfoundation-1      	35  12         9       0
+17  Build-towerfoundation-2      	45  12         9       0
+18  Make-armouring-tower-1         	40   4         11      0
+19  Make-armouring-tower-2         	25   4         11      0
+20  Make-armouring-arch		   	12   4         11      0
+21  Encase-and-armour-tower-1    	15   5         16      18      0
+22  Encase-and-armour-tower-2    	16   5         17      19      0
+23  Encase-and-armour-arch     		30   5         20      0
+24  Cast-tower-1                 	60   7         21      0
+25  Cast-tower-2                 	60   7         22      0
+26  Cast-arch                  		20   7         23      0
+27  Stretch-two-maincables       	25  10         24      25      0
+28  Build-truss-1-with-rods     	30  10         27      0
+29  Build-truss-2-with-rods   	  	37  10         27      0
+30  Cast-lane-on-truss	     		20   7         28      29      0
+31  Polish-lane-on-arch         	12   7         30      26      8       0
