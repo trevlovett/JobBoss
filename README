@@ -1,7 +1,6 @@
-JobBoss
---------
-JobBoss is a project planning tool written in Java.  
-Author: Trevor Lovett 
+JobBoss                                                  Author: Trevor Lovett 
+------------------------------------------------------------------------------
+JobBoss is a project-planning / job-scheduling tool written in Java.  
 
 Building / Running
 -------------------
@@ -23,7 +22,7 @@ The format of a project file is as follows:
 
 Dependencies of a job are jobs that must be completed first.  The purpose of the scheduler is to find the optimal ordering of tasks leading to the shortest project completion time.
 
-The core of the scheulder, Scheduler, allows for jobs to be run with or without 'slack'.  If run with slack, the scheduling algorithm will determine how much each job can be delayed without affecting optimal project completion time.  Latest job-start time is also computed.
+The core of the application, Scheduler, allows for jobs to be run with or without 'slack'.  If run with slack, the scheduling algorithm will determine how much each job can be delayed without affecting optimal project completion time.  Latest job-start time is also computed.
 
 Error Conditions
 -----------------
