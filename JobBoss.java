@@ -2,7 +2,7 @@ import com.trevor.Scheduler;
 
 public class JobBoss {
     public static void format() {
-        System.err.println("format: java SchedularApp projectName.txt manpower");
+        System.err.println("format: java JobBoss projectName.txt manpower");
     }
 
     public static void main(String args[]) {
